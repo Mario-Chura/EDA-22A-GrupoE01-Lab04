@@ -77,11 +77,10 @@ Respuesta.<br>
 
 ### III.	CONCLUSIONES
 #
--Conclusion 1 <br>
+-El ordenamiento por insercion en el peor de los casos presenta una complejidad de O(n^2) lo cual en el tipo de listas dobles presenta un gran problema que puede llegar a presentar ,en valores mayores 1000, errores por falta de memoria <br>
 -Conclusion 2 <br>
 -Conclusion 3 <br>
--Conclusion 4 <br>
--Conclusion 5 <br>
+
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
 
