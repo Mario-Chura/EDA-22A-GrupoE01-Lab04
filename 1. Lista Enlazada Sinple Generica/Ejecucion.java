@@ -15,7 +15,12 @@ public class Ejecucion  {
         //Declaramos una lista enlazada de arrays de enteros
 		Lista<int[]> casos = new Lista<int[]>();        
 		String archivoInsercion = "insercion.txt";
-		PrintWriter oS = new PrintWriter(archivoInsercion); 
+		PrintWriter oS = new PrintWriter(archivoInsercion);
+        
+        //En cada array de la lista de enlazada generamos peores casos
+		for(int n=1; n<=tamano; n++) {
+			casos.agregar(generarPeorCaso(n));
+		}
 
     }
     
