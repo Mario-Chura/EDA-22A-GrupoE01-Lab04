@@ -22,6 +22,15 @@ public class Ejecucion  {
 			casos.agregar(generarPeorCaso(n));
 		}
 
+        //Obtenemos el tiempo de ordenamiento de cada array de la lista enlazada
+		for (int i = 0; i < casos.getLongitud(); i++) {
+			oS.println( String.valueOf( insertionSort(casos.obtener(i)) ) );
+		}
+		oS.close();             
+		JavaPlot p = new JavaPlot();
+		p.addPlot("\"insercion.txt\" with lines");
+		p.plot();
+
     }
     
 }
