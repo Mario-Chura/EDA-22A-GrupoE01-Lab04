@@ -87,7 +87,7 @@ Respuesta.<br>
 
 <div align="center"><h2> REFERENCIAS Y BIBLIOGRAFÍA </h2></div> <br>
 
--   1
--   2
--   3
--   4
+-   https://stackoverflow.com/questions/49732247/adding-a-project-to-java-build-path-from-terminal
+-   https://www.w3schools.com/java/default.asp
+-   https://www.youtube.com/watch?v=9q758AJ1nck&ab_channel=latincoder
+-   https://www.deltapci.com/java-listas-doblemente-enlazadas/
