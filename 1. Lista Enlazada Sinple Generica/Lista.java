@@ -13,4 +13,10 @@ public class Lista <T> {
 			agregar(dato);
 		}
 	}
+
+    //Metodos
+
+	public boolean estaVacia() {
+		return (raiz == null)? true:false;
+	}
 }
