@@ -32,5 +32,13 @@ public class Ejecucion  {
 		p.plot();
 
     }
+
+    public static int[] generarPeorCaso(int t) {
+		int[] lista= new int[t];
+		for (int i=0; i<t; i++) {
+			lista[i] = t-i;		
+		}
+		return lista;		
+	}
     
 }
