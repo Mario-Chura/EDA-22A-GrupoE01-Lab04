@@ -85,7 +85,7 @@ Respuesta.<br>
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
 
-<div align="center"><h2> REFERENCIAS Y BIBLIOGRAFÍAL </h2></div> <br>
+<div align="center"><h2> REFERENCIAS Y BIBLIOGRAFÍA </h2></div> <br>
 
 -   1
 -   2
