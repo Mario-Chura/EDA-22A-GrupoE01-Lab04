@@ -41,4 +41,16 @@ public class Lista <T> {
 		}
 		return null;
 	}
+    
+    public int getLongitud() {
+		return longitud;
+	}
+
+	public void setLongitud(int longitud) {
+		this.longitud = longitud;
+	}
+
+	public String toString() {
+		return raiz.toString();
+	}
 }
