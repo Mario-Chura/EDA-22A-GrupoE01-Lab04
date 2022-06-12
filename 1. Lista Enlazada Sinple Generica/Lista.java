@@ -19,4 +19,15 @@ public class Lista <T> {
 	public boolean estaVacia() {
 		return (raiz == null)? true:false;
 	}
+
+    public void agregar (T dato) {
+		Nodo <T> nodo = new Nodo <T>(dato);
+		if (ultimo == null) {
+			raiz = nodo;
+		} else {
+			ultimo.sig = nodo;
+		}
+		ultimo = nodo;
+		longitud++;
+	}
 }
