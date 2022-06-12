@@ -10,7 +10,12 @@ public class Ejecucion  {
 		int tamano;        
 		Scanner teclado = new Scanner( System.in );
 		System.out.print( "Introduzca el tamaño máximo del último arreglo: " );
-		tamano = teclado.nextInt();     
+		tamano = teclado.nextInt();
+        
+        //Declaramos una lista enlazada de arrays de enteros
+		Lista<int[]> casos = new Lista<int[]>();        
+		String archivoInsercion = "insercion.txt";
+		PrintWriter oS = new PrintWriter(archivoInsercion); 
 
     }
     
