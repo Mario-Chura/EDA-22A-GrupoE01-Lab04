@@ -69,7 +69,7 @@
 	
 - Ahora en nuestro IDE, en nuestro caso eclipse colocamos nuestro archivo JavaPlot.jar en una carpeta de nuestro proyecto y realizamos la siguiente acción:
 	
-	![imagen](imagenes/3. BuildPath.jpg)
+	![imagen](imagenes/3.BuildPath.jpg)
 	
 - Ahora podemos comenzar con nuestros ejercicios.
  1.  Utilizar el tipo generico de Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento
