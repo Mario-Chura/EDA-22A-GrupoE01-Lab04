@@ -1,15 +1,15 @@
-public class Lista <T> {
+public class Lista <E> {
     //Atributos
-    private Node<T> raiz;
-    private Node<T> ultimo;
+    private Node<E> firts;
+    private Node<E> last;
     private int longitud;
     
     //Metodo constructor
     public Lista () {
-        raiz = null;
+     firts = null;
     }
-    public Lista (T[] datos) {
-        for (T dato :datos) {
+    public Lista (E[] datos) {
+        for (E dato :datos) {
             agregar(dato);
         }
     }
@@ -17,22 +17,22 @@ public class Lista <T> {
     //Metodos
 
     public boolean estaVacia() {
-        return (raiz == null)? true:false;
+        return  (firts == null)? true:false;
     }
 
-    public void agregar (T dato) {
-        Node <T> nodo = new Node <T>(dato);
-        if (ultimo == null) {
-            raiz = nodo;
+    public void agregar (E dato) {
+        Node <E> nodo = new Node <E>(dato);
+        if (last == null) {
+         firts = nodo;
         } else {
-            ultimo.setNext(nodo);         }
-        ultimo = nodo;
+            last.setNext(nodo);         }
+        last = nodo;
         longitud++;
     }
 
-    public T obtener(int indice ) {
+    public E obtener(int indice ) {
         if (indice >= 0 && indice < longitud) {
-            Node <T> nodo = raiz ;
+            Node <E> nodo = firts ;
             for (int i = 0; i < longitud && i != indice; i++) {
                 nodo = nodo.getNext();
             }
@@ -50,7 +50,7 @@ public class Lista <T> {
     }
 
     public String toString() {
-        return raiz.toString();
+        return firts.toString();
     }
 }
 
