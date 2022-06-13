@@ -161,7 +161,7 @@ Respuesta.<br>
 ### III.	CONCLUSIONES
 #
 -El ordenamiento por insercion en el peor de los casos presenta una complejidad de O(n^2) lo cual en el tipo de listas dobles presenta un gran problema que puede llegar a presentar ,en valores mayores 1000, errores por falta de memoria <br>
--Conclusion 2 <br>
+-El uso de Gnuplot con el paquete JavaPlot, para graficar los tiempos del Algoritmo, nos resulto muy util y practico trabajarlo para dar solucion al laboratorio. Ademas que agregamos el paquete en los IDE de Eclipse y NetBeans, se pudo conocer tambien como se trabaja desde la terminal y pese a algunos comandos no resultaba para no complicado implementarlo.<br>
 -Conclusion 3 <br>
 
 #
