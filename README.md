@@ -134,9 +134,70 @@
    		Introduzca el tamaño máximo del último arreglo: 10000
 		```	
 	 - Grafica:
-	 <br><img src="https://i.ibb.co/02jDSk6/Lista-Enlazada-10000-Ejemplo.jpg"><br>
- 2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.
+	 ![imagen](imagenes/5.ListaEnlazada.jpg)
+ 2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.<br>
  
+ 	- Se creo la clase Nodo.java con los siguientes métodos:
+ 		```py
+   			//Constructores
+			Node () {}
+	
+			Node (E data , Node <E> nextNode , Node <E> previousNode){}
+	
+			Node (E data , Node <E> nextNode) {}
+	
+			Node (E data) {}
+	
+			//Metodos de node
+			public void setNext(Node <E> x){}
+	
+			public Node <E> getPrevious(){}
+	
+			public Node <E> getNext(){}
+	
+			public E getData(){}
+	
+			public void setPrevious(Node <E> x){}
+		```
+#
+
+ 	- Hacemos extender nuestra clase lista doble enlazada de Comparable para poder modificar nuestro método de ordenamiento se implementaron los siguientes métodos:
+ 	 		```py
+				//Atributos
+				private Node <E> raiz;
+				private Node <E> ultimo;
+				public int dimension;
+
+				//Metodo constructor
+				public ListaDobleEnlazada(){
+				}
+
+				// Metodos
+				// Add añade un nuevo elemento
+				public void add(E x){
+				}
+
+				//Get devuelve el elemento al cual pertenece el indice ingresado
+				public Node<E> get(int indice) {
+				}
+	
+				//Remove elimina el elemento al cual pertenece el indice ingresado
+				public void remove(int indice) {
+				}
+	
+				//isEmpty nos devuelve un booleano si esta vacio
+				public boolean isEmpty(){
+				}
+	
+				public String toString(){
+				}
+	
+				//Metodo de insercion modificado nos devuelve el tiempo de ordenamiento
+				public long insertionSort(){
+				}
+			```
+#
+
  3.  De los ordenamientos con ArrayList, Lista Enlazada Generica y Doble Lista Enlazada Generica tenemos el siguiente resultado:
  
  ![imagen](imagenes/7.Comparacion.jpg)
@@ -180,7 +241,7 @@ Respuesta.<br>
 #
 -El ordenamiento por insercion en el peor de los casos presenta una complejidad de O(n^2) lo cual en el tipo de listas dobles presenta un gran problema que puede llegar a presentar ,en valores mayores 1000, errores por falta de memoria <br>
 -El uso de Gnuplot con el paquete JavaPlot, para graficar los tiempos del Algoritmo, nos resulto muy util y practico trabajarlo para dar solucion al laboratorio. Ademas que agregamos el paquete en los IDE de Eclipse y NetBeans, se pudo conocer tambien como se trabaja desde la terminal y pese a algunos comandos no resultaba para no complicado implementarlo.<br>
--Conclusion 3 <br>
+-Al momento de ejecutar los ordenamientos de las diferentes estructuras de datos se pudo notar la variación de las grafica a pesar de ser los mismos datos, esto se debe a que la velocidad de procesamiento va depender de nuestro equipo, que procesos este realizando en el momento de la ejecución ello hace esa variación en las gráficas. <br>
 
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
