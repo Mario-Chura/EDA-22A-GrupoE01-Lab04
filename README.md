@@ -136,6 +136,11 @@
 	 - Grafica:
 	 <br><img src="https://i.ibb.co/02jDSk6/Lista-Enlazada-10000-Ejemplo.jpg"><br>
  2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.
+ 
+ 3.  De los ordenamientos con ArrayList, Lista Enlazada Generica y Doble Lista Enlazada Generica tenemos el siguiente resultado:
+ 
+ ![imagen](imagenes/7.Comparacion.jpg)
+ 
    
 #
 
