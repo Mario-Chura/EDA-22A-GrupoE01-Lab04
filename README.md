@@ -135,68 +135,73 @@
 		```	
 	 - Grafica:
 	 ![imagen](imagenes/5.ListaEnlazada.jpg)
+#
+
  2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.<br>
  
- 	- Se creo la clase Nodo.java con los siguientes métodos:
- 		```py
-   			//Constructores
-			Node () {}
+ 		- Se creo la clase Nodo.java con los siguientes métodos:
+ 
+ 			```py
+   					//Constructores
+					Node () {}
 	
-			Node (E data , Node <E> nextNode , Node <E> previousNode){}
+					Node (E data , Node <E> nextNode , Node <E> previousNode){}
 	
-			Node (E data , Node <E> nextNode) {}
+					Node (E data , Node <E> nextNode) {}
 	
-			Node (E data) {}
-	
-			//Metodos de node
-			public void setNext(Node <E> x){}
-	
-			public Node <E> getPrevious(){}
-	
-			public Node <E> getNext(){}
-	
-			public E getData(){}
-	
-			public void setPrevious(Node <E> x){}
-		```
-#
+					Node (E data) {}
 
- 	- Hacemos extender nuestra clase lista doble enlazada de Comparable para poder modificar nuestro método de ordenamiento se implementaron los siguientes métodos:
- 	 		```py
-				//Atributos
-				private Node <E> raiz;
-				private Node <E> ultimo;
-				public int dimension;
-
-				//Metodo constructor
-				public ListaDobleEnlazada(){
-				}
-
-				// Metodos
-				// Add añade un nuevo elemento
-				public void add(E x){
-				}
-
-				//Get devuelve el elemento al cual pertenece el indice ingresado
-				public Node<E> get(int indice) {
-				}
+					//Metodos de node
+					public void setNext(Node <E> x){}
 	
-				//Remove elimina el elemento al cual pertenece el indice ingresado
-				public void remove(int indice) {
-				}
+					public Node <E> getPrevious(){}
 	
-				//isEmpty nos devuelve un booleano si esta vacio
-				public boolean isEmpty(){
-				}
+					public Node <E> getNext(){}
 	
-				public String toString(){
-				}
+					public E getData(){}
 	
-				//Metodo de insercion modificado nos devuelve el tiempo de ordenamiento
-				public long insertionSort(){
-				}
+					public void setPrevious(Node <E> x){}
 			```
-#
+
+
+ 		- Hacemos extender nuestra clase lista doble enlazada de Comparable para poder modificar nuestro método de ordenamiento se implementaron los siguientes métodos:
+	
+
+ 	 		```py
+					//Atributos
+					private Node <E> raiz;
+					private Node <E> ultimo;
+					public int dimension;
+
+					//Metodo constructor
+					public ListaDobleEnlazada(){
+					}
+
+					// Metodos
+					// Add añade un nuevo elemento
+					public void add(E x){
+					}
+
+					//Get devuelve el elemento al cual pertenece el indice ingresado
+					public Node<E> get(int indice) {
+					}
+	
+					//Remove elimina el elemento al cual pertenece el indice ingresado
+					public void remove(int indice) {
+					}
+	
+					//isEmpty nos devuelve un booleano si esta vacio
+					public boolean isEmpty(){
+					}
+	
+					public String toString(){
+					}
+	
+					//Metodo de insercion modificado nos devuelve el tiempo de ordenamiento
+					public long insertionSort(){
+					}
+			```
+
 
  3.  De los ordenamientos con ArrayList, Lista Enlazada Generica y Doble Lista Enlazada Generica tenemos el siguiente resultado:
  
