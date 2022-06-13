@@ -3,12 +3,8 @@ public class Node<E> {
     private Node<E> next; //referencia a un nodo, clase parametrizada
     
     //constructores
-    public Node(E data, Node<E> next){ //recibe un nodo y el sgte
+    public Node(E data){ //recibe un nodo y el sgte
         this.data = data;
-        this.next = next;
-    }
-    public Node(E data){ //recibe un nodo y al sgte null
-        this(data,null); //invoca al primer constructor
     }
     //getter y setter
     public E getData(){
