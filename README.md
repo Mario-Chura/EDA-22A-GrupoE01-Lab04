@@ -70,9 +70,32 @@
 #
 - ¿Cómo se ejecutaría sus implementaciones desde terminal(consola)? <br>
 Respuesta.<br>
+	- Creamos un archivo Java, denominado para este caso, prueba.java
+	- En el cual implementamos un Objeto de tipo JavaPlot, ademas importamos la extension JavaPlot
+	```py
+	import com.panayotis.gnuplot.JavaPlot;
+
+	     public class prueba {
+   	public static void main(String[] args) {
+        	  JavaPlot p = new JavaPlot();
+        	  p.addPlot("sin(x),cos(x)");
+        	  p.plot();
+    	}
+	     }
+	```
 #
 - ¿Cómo lo haría desde la terminal? <br>
 Respuesta.<br>
+	- Luego de esto obtenemos la ruta donde se encuentre el archivo JavaPlot.jar 
+	- Para mostrar el resultado del archivo prueba.java en consola ejecutamos
+	```py
+	javac -cp JavaPlot-0.5.0/dist/JavaPlot.jar prueba.java
+	```
+	- Luego de esto ejecutamos la siguiente linea de comandos
+	```py
+	java -cp JavaPlot-0.5.0/dist/JavaPlot.jar:. prueba
+	```
+	- Con esto ejecutado, se mostrara el resultado del archivo que para este caso son las graficas de las funciones seno y coseno
 #
 
 ### III.	CONCLUSIONES
