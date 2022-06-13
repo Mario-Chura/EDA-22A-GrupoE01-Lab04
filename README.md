@@ -61,15 +61,15 @@
 #
 - Antes de empezar con los ejercicios vamos a instalar gnuplot en nuestro sistema operativo ello lo realizamos en el siguiente link https://sourceforge.net/projects/gnuplot/files/gnuplot/5.4.3/
 	
-	![DJANGO-PANEL-ADMIN-LOGIN](imagenes/gnuplot.jpg)
+	![imagen](imagenes/1.gnuplot.jpg)
 	
 - Luego tenemos que instalar JavaPolot para ello lo descargamos del siguiente link https://sourceforge.net/projects/gnujavaplot/ 
 	
-	![DJANGO-PANEL-ADMIN-LOGIN](imagenes/JavaPlot.jpg)
+	![imagen](imagenes/2.JavaPlot.jpg)
 	
 - Ahora en nuestro IDE, en nuestro caso eclipse colocamos nuestro archivo JavaPlot.jar en una carpeta de nuestro proyecto y realizamos la siguiente acción:
 	
-	![DJANGO-PANEL-ADMIN-LOGIN](imagenes/BuildPath.jpg)
+	![imagen](imagenes/3. BuildPath.jpg)
 	
 - Ahora podemos comenzar con nuestros ejercicios.
  1.  Utilizar el tipo generico de Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento
