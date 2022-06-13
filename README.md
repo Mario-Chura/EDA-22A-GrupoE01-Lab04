@@ -59,9 +59,69 @@
 
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 #	
- 1.  Utilizar el tipo generico de Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento..
-      -   List - Method get()
-      -   List - Method remove()
+ 1.  Utilizar el tipo generico de Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento
+      - Creamos la clase Nodo de tipo generico
+      - Creamos la clase Lista de tipo generica
+      - Esto lo implementamos en la clase Ejecucion
+      - En la clase Ejecucion
+       ```py
+       //Importamos los paquetes necesarios
+       
+       import java.io.IOException;
+	 import java.io.PrintWriter;
+	 import java.util.Scanner;
+	 import com.panayotis.gnuplot.JavaPlot; //nuevo paquete JavaPlot para ejecutar en Grafica 
+        ```
+      - Creamos los metodos generarPeorCaso() 
+      ```py
+      //En un bucle for asignamos los valores de un nuevo arreglo, con el tamaño ingresado como parametro en la funcion
+         for (int i=0; i<t; i++) {
+			lista[i] = t-i;		
+         }
+         return lista;	
+      //Retornamos el nuevo arreglo
+      ```
+      - Y el metodo insertionSort() que recibe un arreglo de enteros
+      ```py
+      //Dentro del bucle for el valor de la varibale key, para que dentro del bucle while se haga el intercambio
+      	for(int j=1; j<A.length; j=j+1) {
+			  key = A[j];
+			  i = j-1;
+			while(i>-1 && A[i]>key) {
+			   A[i+1] = A[i];
+			   i = i-1;
+			}
+			  A[i+1] = key;
+	          }
+	          //..
+	          return nano_endTime - nano_startTime;
+        //Al final retorna la diferencia del tiempo final con el tiempo de inicio
+      ```
+      - Luego en la clase Main
+       ```py
+       //Declaramos una lista enlazada de arrays de enteros
+		  Lista<int[]> casos = new Lista<int[]>();
+		  
+       //En cada array de la lista de enlazada generamos peores casos
+		 for(int n=1; n<=tamano; n++) {
+			casos.agregar(generarPeorCaso(n));
+		 }
+		 
+       //Obtenemos el tiempo de ordenamiento de cada array de la lista enlazada y lo escribimos en el archivo  "insercion.txt"
+		  for (int i = 0; i < casos.getLongitud(); i++) {
+			oS.println( String.valueOf( insertionSort(casos.obtener(i)) ) );
+		  }
+       //Ejecutamos el objeto plot para que cargue el archivo "insercion.txt"
+            p.addPlot("\"insercion.txt\" with lines");
+	        p.plot();
+        ```
+        - Mostramos el Resultado
+        
+		```py
+   		Introduzca el tamaño máximo del último arreglo: 10000
+		```	
+	 - Grafica:
+	 <br><img src="https://i.ibb.co/02jDSk6/Lista-Enlazada-10000-Ejemplo.jpg"><br>
  2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.
    
 #
