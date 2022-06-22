@@ -27,16 +27,16 @@
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Estructura de Datos y Algoritmos</td></tr>
-<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Sort y Listas Enlazadas</td></tr>
+<tr><td>TÍTULO DE LA PRÁCTICA:</td><td colspan="5">Árboles</td></tr>
 <tr>
-<td>NÚMERO DE PRÁCTICA:</td><td>04</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
+<td>NÚMERO DE PRÁCTICA:</td><td>05</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td>
 </tr>
 <tr>
-<td>FECHA DE PRESENTACIÓN:</td><td>12/06/2022</td><td>HORA DE PRESENTACIÓN: 11:55 pm</td><td colspan="3"></td>
+<td>FECHA DE PRESENTACIÓN:</td><td>28/06/2022</td><td>HORA DE PRESENTACIÓN: 11:55 pm</td><td colspan="3"></td>
 </tr>
 <tr><td colspan="3">INTEGRANTE(s):
 <ul>
-      <li><a href="https://github.com/fernandocoylaA">Fernando Jesús Coyla Alvarez</a></li>
+      			<li><a href="https://github.com/fernandocoylaA">Fernando Jesús Coyla Alvarez</a></li>
 			<li><a href="https://github.com/Icielo23">Valery Cielo Iquise Mamani</a></li>
 			<li><a href="https://github.com/Mario-Chura">Mario Franco Chura Puma</a></li>
 </ul>
@@ -59,20 +59,19 @@
 
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 #	
- 1.  Utilizar el tipo generico de Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento..
-      -   List - Method get()
-      -   List - Method remove()
- 2.  Utilizar el tipo generico de Doble Lista Enlazada para generar los peores casos y ejecutar el algoritmo de ordenamiento.
+	1.  Ejercicio 1 : Corchetes equilibrados
+		- Procedimiento
+	2.  Ejercicio 2 : Operaciones de árbol AVL
+		- Procedimiento
+	3.  Ejercicio 3 : Árbol AVL
+		- Procedimiento
+	
    
 #
 
 ### II.	SOLUCIÓN DEL CUESTIONARIO
-#
-- ¿Cómo se ejecutaría sus implementaciones desde terminal(consola)? <br>
-Respuesta.<br>
-#
-- ¿Cómo lo haría desde la terminal? <br>
-Respuesta.<br>
+
+
 #
 
 ### III.	CONCLUSIONES
