@@ -59,12 +59,12 @@
 
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 #	
-	1.  Ejercicio 1 : Corchetes equilibrados
-		- Procedimiento
-	2.  Ejercicio 2 : Operaciones de árbol AVL
-		- Procedimiento
-	3.  Ejercicio 3 : Árbol AVL
-		- Procedimiento
+1.  Ejercicio 1 : Corchetes equilibrados
+	- Procedimiento
+2.  Ejercicio 2 : Operaciones de árbol AVL
+	- Procedimiento
+3.  Ejercicio 3 : Árbol AVL
+	- Procedimiento
 	
    
 #
